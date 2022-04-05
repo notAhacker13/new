@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=BhuTuka+Expanded+One&family=Fredoka:wght@300;500;600;700&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Moo+Lah+Lah&family=Ole&family=Orbitron:wght@400;500;600&family=Oswald:wght@200;300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200;1,400;1,500&family=Rampart+One&family=Road+Rage&family=Roboto+Slab:wght@100;200;300;400;700&family=Syne+Mono&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Zen+Tokyo+Zoo&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /*new property */
+}
+
+body nav {
+    padding: 0px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 208, 0);
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+    /* background-color: rgb(55, 0, 255); */
+}
+
+body nav ul {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 24px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+body nav h2 a {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 20px;
+    font-family: Rampart One;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+body nav h2 a:hover {
+    color: rgb(255, 196, 0);
+    color: rgb(255, 38, 0);
+    transition: 0.5s;
+}
+
+body nav a {
+    text-decoration: none;
+}
+
+body nav a {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    color: rgb(78, 74, 74);
+}
+
+body nav a:hover {
+    color: black;
+}
+
+body nav .leftmost {
+    margin-left: 50px;
+}
+
+body nav .rightmost {
+    margin-right: 50px;
+}
+
+.create-nft-link {
+    margin-left: -150px;
+}
+
+.login {
+    margin-right: -150px;
+}
+
+
+/* body nav h2 {
+    position: absolute;
+    left: 400px;
+} */
+
+
+/* =======================*/
+
+#section1 {
+    height: 100vh;
+    background-image: url(./img/finger_monkey.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#section1 .overlay1 {
+    background-color: rgba(0, 0, 0, 0.774);
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section1 h1 {
+    position: absolute;
+    /* top: 20rem;
+    left: 15rem; */
+    /* top: 400px; */
+    font-size: 7rem;
+    font-family: Moo Lah Lah;
+    color: rgb(255, 208, 0);
+}
+
+#section1 input {
+    /* position: absolute;
+    top: 450px;
+    left: 320px; */
+    width: 25rem;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid rgb(255, 166, 0);
+    border: none;
+    border-radius: 3px;
+    border: 1.5px solid white;
+}
+
+#section1 .search1 {
+    /* position: absolute;
+    top: 450px;
+    margin-left: 22rem; */
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border: 2px solid rgb(255, 187, 0);
+}
+
+#section1 .search1:hover {
+    background-color: transparent;
+    color: white;
+    transition: .5s;
+    color: rgb(255, 187, 0);
+}
+
+#section1 .searchbar {
+    display: flex;
+    justify-content: space-between;
+    width: 32rem;
+    position: absolute;
+    top: 500px;
+}
+
+
+/* ========================= */
+
+#section2 .container {
+    padding: 50px 0px;
+}
+
+#section2 .container h2 {
+    padding-bottom: 20px;
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+#section2 .row .col-lg-3 {}
+
+#section2 .row .col-lg-3 img {
+    border-radius: 12px;
+    box-shadow: 4px 5px 6px 1px rgb(128, 128, 128);
+    transition: 0.5s;
+}
+
+#section2 .row .col-lg-3 img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#section2 .row .col-lg-3 p {
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+/* ================== */
+
+#section3 {
+    height: 100vh;
+    background-image: url(./img/boredape_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid rgb(255, 208, 0);
+}
+
+.overlay2 {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay2 h1 {
+    font-family: Road rage;
+    font-size: 9rem;
+    color: rgb(255, 187, 0);
+    position: absolute;
+}
+
+#section3 .overlay2 p {
+    position: absolute;
+    /* bottom: 0px; */
+    top: 420px;
+    font-family: Fuzzy Bubbles;
+    font-family: Zen Tokyo Zoo;
+    font-family: Road Rage;
+    font-size: 30px;
+}
+
+#section3 .overlay2 button {
+    position: absolute;
+    top: 520px;
+    outline: none;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: 2px solid rgb(18, 194, 185);
+    background-color: rgb(18, 194, 185);
+    color: white;
+    transition: 0.5s;
+}
+
+#section3 .overlay2 button:hover {
+    background-color: transparent;
+    color: rgb(18, 194, 185);
+    transition: 0.5s;
+}
+
+
+/* ===================== */
+
+#section4 {
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 187, 0, 0.856);
+    color: rgb(224, 218, 218);
+    position: relative;
+    margin: 0px;
+}
+
+#section4 .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 100px;
+}
+
+#section4 .box1 {
+    width: 300px;
+    /* border: 1px solid white; */
+    font-family: Oswald, Moo Lah Lah;
+    /* position: absolute;
+    top: 100px;
+    left: 50px; */
+}
+
+#section4 .box1 i {
+    /* border: 1px solid white; */
+    transform: scale(1.1);
+    margin: 0px 5px;
+    color: black;
+    background-color: rgba(255, 187, 0, 0.856);
+    background-color: rgb(180, 169, 169);
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+#section4 .box1 p {
+    justify-content: center;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/* -------- */
+
+#section4 .box2 {
+    /* position: absolute;
+    top: 115px;
+    left: 580px; */
+}
+
+#section4 .box2 h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#section4 .box1 h3:hover {
+    cursor: pointer;
+}
+
+#section4 .box2 li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+#section4 .box2 a {
+    text-decoration: none;
+    color: rgb(224, 218, 218);
+}
+
+
+/* -------------- */
+
+#section4 .box3 {
+    /* border: 1px solid white; */
+    /* position: absolute;
+    top: 115px;
+    right: 100px; */
+}
+
+#section4 .box3 h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#section4 .box3 li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+#section4 .box3 a {
+    text-decoration: none;
+    color: rgb(224, 218, 218);
+}
+
+#section4 a {
+    transition: 0.5s;
+}
+
+#section4 a:hover {
+    color: rgb(0, 140, 255);
+    transition: 0.5s;
+}
+
+#section4 .copyright {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 33.33%;
+    left: 600px;
+}
+
+
+/* ============================================= */
+
+#pop-up {
+    position: relative;
+    display: flex;
+}
+
+#pop-up .signup-box {
+    border: 1px solid black;
+    width: 20rem;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#pop-up .signup-box input {
+    width: 18rem;
+    margin-bottom: 15px;
+}
+
+#pop-up .signup-box label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pop-up .signup-box button {
+    margin-top: 20px;
+    width: 18rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 187, 0, 0.747);
+    outline: none;
+    /* border: 1px solid rgba(255, 187, 0, 0.747); */
+    border: 0.5px solid black;
+    font-size: 14px;
+    padding: 3px;
+}
+
+
+/* ----------------- */
+
+#pop-up .login-box {
+    border: 1px solid black;
+    width: 20rem;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#pop-up .login-box button {
+    margin-top: 20px;
+    width: 18rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 187, 0, 0.747);
+    outline: none;
+    /* border: 1px solid rgba(255, 187, 0, 0.747); */
+    border: 0.5px solid black;
+    font-size: 14px;
+    padding: 3px;
+}
+
+#pop-up .login-box label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pop-up .login-box input {
+    width: 18rem;
+}
+
+#pop-up .login-box .create-account {
+    width: 18rem;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid black;
+    background-color: rgb(223, 217, 217);
+    font-size: 14px;
+    padding: 3px;
+    margin-top: -10px;
+}
+
+#pop-up .login-box .center-align-label {
+    padding-left: 60px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+
+/* --------------------------- */
+
+#pop-up .login-box-2 {
+    border: 1px solid black;
+    width: 20rem;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#pop-up .login-box-2 button {
+    width: 18rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 187, 0, 0.747);
+    outline: none;
+    /* border: 1px solid rgba(255, 187, 0, 0.747); */
+    border: 0.5px solid black;
+    font-size: 14px;
+    padding: 3px;
+}
+
+#pop-up .login-box-2 label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pop-up .login-box-2 input {
+    width: 18rem;
+}
+
+#pop-up .login-box-2 .get-otp {
+    width: 18rem;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid black;
+    background-color: rgb(223, 217, 217);
+    font-size: 14px;
+    padding: 3px;
+    margin-top: -10px;
+}
+
+
+/* ?????????????????????????????? */
+
+#pop-up .signup-box {
+    /* position: absolute;
+    top: 20%;
+    left: 40%; */
+    background-color: whitesmoke;
+}
+
+#pop-up .login-box {
+    /* position: absolute;
+    top: 20%;
+    left: 40%; */
+    background-color: whitesmoke;
+}
+
+#pop-up .login-box-2 {
+    /* position: absolute;
+    top: 20%;
+    left: 40%; */
+    background-color: whitesmoke;
+}
+
+.pop-up-box {
+    /* box-shadow: 2px 2px 2px 2px rgb(255, 174, 0); */
+}
